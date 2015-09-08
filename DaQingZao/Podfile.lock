@@ -1,0 +1,47 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - MagicalRecord (2.3.0)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - StreamingKit (0.1.25)
+  - TouchJSON (1.1)
+  - TWRDownloadManager (1.1.1)
+
+DEPENDENCIES:
+  - AFNetworking
+  - MagicalRecord
+  - SDWebImage
+  - StreamingKit
+  - TouchJSON
+  - TWRDownloadManager
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  MagicalRecord: 89eb7d7ead39fb37f01c3d010665ee94d17f8dba
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  StreamingKit: f00c054cfd0f59d88c8be7a2270e208302ce48c4
+  TouchJSON: 39be3595ebe489095311d97ce0c824417324cb74
+  TWRDownloadManager: 34193d7d1ab6e6b4243d74fa4f686cc2ed5ef40f
+
+COCOAPODS: 0.37.0

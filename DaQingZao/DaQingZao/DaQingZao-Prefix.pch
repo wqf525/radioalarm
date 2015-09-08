@@ -1,0 +1,35 @@
+//
+//  DaQingZao.pch
+//  DaQingZao
+//
+//  Created by 吴启飞 on 15/8/3.
+//  Copyright (c) 2015年 吴启飞. All rights reserved.
+//
+
+#ifndef DaQingZao_DaQingZao_pch
+#define DaQingZao_DaQingZao_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+typedef enum EdownloadedStatus
+{
+    unload,
+    downloading,
+    downloaded,
+}EdownloadedStatus;
+
+#import "Macros.h"
+#import "LocalService.h"
+#import <MagicalRecord/MagicalRecord.h>
+#import <TWRDownloadManager/TWRDownloadManager.h>
+#import <UIKit/UIKit.h>
+//#import <CoreAudioKit/CoreAudioKit.h>
+#import <CoreFoundation/CoreFoundation.h>
+#import <Foundation/Foundation.h>
+#import <AVFoundation/AVFoundation.h>
+#import "NSDate+Category.h"
+#import "ExtraThread.h"
+#import "RightViewController.h"
+#import "SlideNavigationController.h"
+#endif

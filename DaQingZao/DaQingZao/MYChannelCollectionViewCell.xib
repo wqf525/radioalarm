@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MYChannelCollectionViewCell" id="gTV-IL-0wX" customClass="MYChannelCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="199" height="234"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="199" height="234"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cover.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kqp-Ih-0EC">
+                        <rect key="frame" x="0.0" y="0.0" width="199" height="187"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="看小松如何笑傲访谈节目 --这坑爹APP" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMs-oL-8W8">
+                        <rect key="frame" x="8" y="218" width="183" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="ZjJ-U7-Odt"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.44705882352941179" green="0.4392156862745098" blue="0.4392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小松访谈" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sha-Ww-reC">
+                        <rect key="frame" x="8" y="197" width="183" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="LBi-xv-83c"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="Kqp-Ih-0EC" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="J0L-Wu-9O7"/>
+                <constraint firstItem="Kqp-Ih-0EC" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="JiV-cd-IKQ"/>
+                <constraint firstItem="DMs-oL-8W8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="Lea-pv-uQR"/>
+                <constraint firstItem="Sha-Ww-reC" firstAttribute="top" secondItem="Kqp-Ih-0EC" secondAttribute="bottom" constant="10" id="TOV-YB-284"/>
+                <constraint firstAttribute="trailing" secondItem="Kqp-Ih-0EC" secondAttribute="trailing" id="V1Z-Jx-ef7"/>
+                <constraint firstItem="DMs-oL-8W8" firstAttribute="top" secondItem="Sha-Ww-reC" secondAttribute="bottom" constant="5" id="WDf-c1-Wvr"/>
+                <constraint firstItem="Sha-Ww-reC" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="aOF-v3-Fma"/>
+                <constraint firstAttribute="trailing" secondItem="DMs-oL-8W8" secondAttribute="trailing" constant="8" id="pJS-eA-6hn"/>
+                <constraint firstAttribute="bottom" secondItem="DMs-oL-8W8" secondAttribute="bottom" constant="6" id="pZg-Qu-EIP"/>
+                <constraint firstAttribute="trailing" secondItem="Sha-Ww-reC" secondAttribute="trailing" constant="8" id="vZw-Ra-ore"/>
+            </constraints>
+            <size key="customSize" width="199" height="234"/>
+            <connections>
+                <outlet property="ChannelDetail" destination="DMs-oL-8W8" id="880-1u-jpz"/>
+                <outlet property="ChannelName" destination="Sha-Ww-reC" id="ur5-ao-Gfl"/>
+                <outlet property="channelViewPhoto" destination="Kqp-Ih-0EC" id="eUy-GT-RVv"/>
+            </connections>
+            <point key="canvasLocation" x="183.5" y="300"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="cover.png" width="201" height="201"/>
+    </resources>
+</document>

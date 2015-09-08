@@ -1,0 +1,16 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '7.0'
+pod 'MagicalRecord'
+pod 'SDWebImage'
+pod 'TouchJSON'
+pod 'AFNetworking'
+pod 'StreamingKit'
+pod 'TWRDownloadManager'
+target 'DaQingZao' do
+
+end
+
+target 'DaQingZaoTests' do
+
+end
+
